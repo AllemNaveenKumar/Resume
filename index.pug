@@ -1,0 +1,57 @@
+doctype html
+html 
+ head 
+  style 
+   include ../static/style.css 
+body 
+nav#navbar
+   ul 
+      div#logo 
+         img(src="static/Dlogo.jpg", alt="logo")
+      li #[a(href="/") Home]
+      li #[a(href="/") About] 
+      li #[a(href="/") Services]
+      li #[a(href="/") Class Info]
+      li #[a(href="/") Contact Us]
+
+section#introSection 
+   div Welcome to Naveen's Dance Academy 
+   div.small Eat Sleep Dance Repeat
+      
+
+section#missionSection 
+   h2 Our Mission
+   div.card 
+      h3 Dance Perfection
+      div.card-box 
+         div.card-img 
+            img(src="static/D1.jpg", alt="img")
+         div.card-content 
+            p This is the best dance academy 
+   div.card 
+      h3 Dance the way you like
+      div.card-box 
+         div.card-img 
+            img(src="static/D2.jpg", alt="")
+         div.card-content 
+            p Good dancers are made, not born
+   div.card 
+      h3 Expert Teaching
+      div.card-box 
+         div.card-img 
+            img(src="static/D3.jpg", alt="")
+         div.card-content 
+            p Dance is the hidden language of the soul
+
+section#sponsersSection 
+   h3 Our Sponsors
+   div#sponsors 
+      img(src="static/L5.jpg", alt="sponser img" Class="spImage")
+      img(src="static/L2.png", alt="sponser img" Class="spImage")
+      img(src="static/L3.png", alt="sponser img" Class="spImage")
+      img(src="static/L4.gif", alt="sponser img" Class="spImage")
+
+
+
+script 
+  include ../static/index.js 
